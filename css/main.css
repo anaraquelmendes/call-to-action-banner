@@ -28,6 +28,15 @@ p {
   font-size: -size: 1.5rem;
 }
 
+img {
+  display: flex;
+  position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
 .btn {
   padding: .35em;
   display: inline-block;
@@ -39,6 +48,15 @@ p {
   background-color: #000;
 }
 
+.btn:hover {
+  background-color: #000;
+}
+
 .btn-big {
   font-size: 1.5rem;
+}
+
+.img-flex {
+  display: flex;
+  position: absolute;
 }
