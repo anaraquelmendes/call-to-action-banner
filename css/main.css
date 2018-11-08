@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+  font-family: Roboto Condensed;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  font-size: -size: 3rem;
+}
+
+p {
+  font-size: -size: 1.5rem;
+}
+
+.btn {
+  padding: .35em;
+  display: inline-block;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #000;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
