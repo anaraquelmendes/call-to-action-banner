@@ -10,6 +10,7 @@ html {
 }
 
 .banner {
+  display: flex;
   position: relative;
   width: 100%;
   max-width: 45em;
@@ -33,11 +34,6 @@ h2 {
 
 p {
   font-size: 1.5rem;
-}
-
-img {
-  display: flex;
-  position: absolute;
 }
 
 body {
@@ -64,6 +60,7 @@ body {
 }
 
 .img-flex {
-  display: flex;
+  display: block;
   position: absolute;
+  width: 100%;
 }
